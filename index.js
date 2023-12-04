@@ -13,7 +13,32 @@ const questions = [
   {
     name: "description",
     type: "input",
-    message: "Describe what your application/project will accomplish",
+    message: "Describe what your application/project will accomplish:",
+  },
+  {
+    name: "Table of Contents",
+    type: "input",
+    message: "Please provide a table of contents:",
+  },
+  {
+    name: "Installation",
+    type: "input",
+    message: "Please provide instructions for installation:",
+  },
+  {
+    name: "Usage",
+    type: "input",
+    message: "Please provide usage instructions:",
+  },
+  {
+    name: "Contributors/Authors",
+    type: "input",
+    message: "Please provide contributor/author name(s):",
+  },
+  {
+    name: "Tests",
+    type: "input",
+    message: "Please provide any tests used for this project:",
   },
   {
     name: "license",
