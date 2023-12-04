@@ -6,20 +6,20 @@ const generateMarkdown = require("./utils/generateMarkdown");
 // TODO: Create an array of questions for user input
 const questions = [
   {
-    type: "input",
     name: "title",
-    message: "1+1",
-  },
-  {
     type: "input",
-    name: "description",
-    message: "2+2",
+    message: "What is the title of your project?",
   },
   {
-    type: "list",
+    name: "description",
+    type: "input",
+    message: "Describe what your application/project will accomplish",
+  },
+  {
     name: "license",
-    message: "3+3",
-    choices: ['MIT','HELLO', 'N/A']
+    type: "list",
+    message: "Please choose a license",
+    choices: ['MIT','Apache License 2.0', 'Mozilla Public License 2.0', 'GNU General Public License', 'N/A']
   },
 ];
 
