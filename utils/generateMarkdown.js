@@ -18,7 +18,7 @@ function generateMarkdown(data) {
   console.log('this is the object being returned from inquirer', data);
   for (var i = 0; i < data.length; i++) 
     return `# ${data.i}`
-  `${renderLicenseBadge(data.license)}`;
+  // `${renderLicenseBadge(data.license)}`;
 
 }
 
